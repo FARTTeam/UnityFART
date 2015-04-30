@@ -1,5 +1,5 @@
 Why? Nuclear Plant Explosion, Everything Mutates.
-What to do: Disable a generator/machine thingy at the stop contamination.
+What to do: Disable a generator/machine thingy to stop contamination.
 Where? Lux City, Casemates, Power Plants
 
 
@@ -8,7 +8,7 @@ Characters:
 Walter
 -------------------------
 Character: Big, Glasses, Beard, Aperture Science Hoodie
-Idle Mode: ?
+Idle Mode: Putting on headphones and staring somewhere in the horizon. 
 Weapon: Acid Gun
 Ability: Gravity Shift to Discover Secrets
 Speed/Jump: Slow
