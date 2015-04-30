@@ -1,0 +1,44 @@
+Why? Nuclear Plant Explosion, Everything Mutates.
+What to do: Disable a generator/machine thingy at the stop contamination.
+Where? Lux City, Casemates, Power Plants
+
+
+Characters:
+
+Walter
+-------------------------
+Character: Big, Glasses, Beard, Aperture Science Hoodie
+Idle Mode: ?
+Weapon: Acid Gun
+Ability: Gravity Shift to Discover Secrets
+Speed/Jump: Slow
+
+Saeed
+------------------------
+Character: Nerd Glasses, Long Hair?, T-Shirt
+Idle Mode: Pervert Thought Bubbles
+Weapon: Force Gun
+Ability: Hack Computer to Unlock Secret Doors
+Speed/Jump: Normal
+
+Sasan
+-------------------------
+Character: Beard, Goatee
+Idle Mode: Smokes
+Weapon: Flame Gun
+Ability: Hover Boots (While falling, press A to hover for a short time)
+Speed/Jump: Normal
+
+Martin
+--------------------------
+Character: Beard
+Idle Mode: Jogging Warmup?
+Weapon: Meelee (Punch)
+Ability: Runs Super Fast (Can jump to unreachable secret places)
+
+Lara
+--------------------------
+Character: Glasses, T-Shirt, Hair
+Idle Mode: Perv
+Weapon: Shout-Kill
+Ability: Short-Distance Teleport
