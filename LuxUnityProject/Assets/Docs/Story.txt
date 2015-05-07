@@ -4,6 +4,10 @@ Where? Lux City, Casemates, Power Plants
 
 
 Characters:
+[
+Idea: Characters are like 'Lives'. If one character dies, user can choose to play with another one, until all die. When all characters die, the game is over and user has to play from the beginning.
+Idea2: Score collected by picking up items can be traded for character lives or abilities (MANA).
+]
 
 Walter
 -------------------------
