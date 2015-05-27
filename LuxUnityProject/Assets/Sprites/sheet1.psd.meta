@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b5efc2cb60d2ad943a205bdce55b402d
-timeCreated: 1432677571
+timeCreated: 1432731350
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,6 +11,15 @@ TextureImporter:
     21300008: sheet1_4
     21300010: sheet1_5
     21300012: sheet1_6
+    21300014: sheet1_7
+    21300016: sheet1_8
+    21300018: sheet1_9
+    21300020: sheet1_10
+    21300022: sheet1_11
+    21300024: sheet1_12
+    21300026: sheet1_13
+    21300028: sheet1_14
+    21300030: sheet1_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -123,6 +132,96 @@ TextureImporter:
         y: 1895
         width: 152
         height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet1_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1846
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet1_8
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1846
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet1_9
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 1846
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet1_10
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1847
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet1_11
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1846
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet1_12
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1649
+        width: 187
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet1_13
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1649
+        width: 188
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet1_14
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1651
+        width: 186
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet1_15
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1652
+        width: 187
+        height: 187
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
