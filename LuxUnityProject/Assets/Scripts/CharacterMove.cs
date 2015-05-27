@@ -21,7 +21,7 @@ public class CharacterMove : MonoBehaviour {
             transform.Translate(Vector3.right * Time.deltaTime * Speed);
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x),transform.localScale.y);
         }
-        else if (Input.GetButton("Jump"))
+        if (Input.GetButton("Jump"))
         {
             transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpPower), ForceMode2D.Impulse);
         }
