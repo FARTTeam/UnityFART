@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿/// Character Control: Creates a platformer character
+/// By Saeed Afshari (2015)
+/// 
+using UnityEngine;
 using System.Collections;
 
 public class CharacterMove : MonoBehaviour {
