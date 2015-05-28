@@ -13,6 +13,7 @@ public class CameraControl : MonoBehaviour {
     public float HorizontalThreshold = 0.95f;
     public float VerticalThreshold = 0.95f;
 
+    public GameObject DebugText = null;
     new Camera camera;
 	// Use this for initialization
 	void Start () {
@@ -23,10 +24,20 @@ public class CameraControl : MonoBehaviour {
 	void Update () {
         if (FollowObject == null) return;
         Vector2 cameraSize = new Vector2(camera.pixelWidth * camera.orthographicSize / camera.pixelHeight, camera.orthographicSize);
-        Vector3 followPos = FollowObject.transform.position - transform.position;
+        Vector3 followPos = FollowObject.transform.position; // - transform.position;
         float cameraLeft = transform.position.x - cameraSize.x * HorizontalThreshold;
         float cameraRight = transform.position.x + cameraSize.x * HorizontalThreshold;
         float cameraUp = transform.position.y + cameraSize.y * VerticalThreshold;
         float cameraDown = transform.position.y - cameraSize.y * VerticalThreshold;
+        
+        Vector3 newPos = transform.position;
+        if (followPos.x < cameraLeft) newPos.x = FollowObject.transform.position.x + cameraSize.x * HorizontalThreshold;
+        else if (followPos.x > cameraRight) newPos.x = FollowObject.transform.position.x - cameraSize.x * HorizontalThreshold;
+
+        if (DebugText)
+        {
+            DebugText.GetComponent<UnityEngine.UI.Text>().text =
+                cameraSize.ToString();
+        }
     }
 }
