@@ -20,3 +20,5 @@
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+win32*
+player_win_development_x86.pdb

@@ -28,13 +28,13 @@ public class CharacterMove : MonoBehaviour {
         if (Input.GetAxis("Horizontal") < -0.5)
         {
             transform.Translate(Vector3.left * Time.deltaTime * Speed);
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y);
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y,1);
             GetComponent<Animator>().Play("Moving");
         }
         else if (Input.GetAxis("Horizontal") > 0.5)
         {
             transform.Translate(Vector3.right * Time.deltaTime * Speed);
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y);
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y,1);
             GetComponent<Animator>().Play("Moving");
         }
         else
@@ -43,7 +43,13 @@ public class CharacterMove : MonoBehaviour {
         }
         if (Input.GetButtonDown("Jump") && jumpEnabled > 0)
         {
-            transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, JumpPower), ForceMode2D.Impulse);
+            float impulse = -Mathf.Sign(Physics2D.gravity.y) * JumpPower;
+            transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, impulse), ForceMode2D.Impulse);
+        }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            transform.localScale = new Vector3(transform.localScale.x, -transform.localScale.y, 1);
+            Physics2D.gravity *= -1.0f;
         }
         if (jumpEnabled <= 0)
         {
