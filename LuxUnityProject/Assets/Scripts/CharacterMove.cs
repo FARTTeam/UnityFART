@@ -48,8 +48,13 @@ public class CharacterMove : MonoBehaviour {
         }
         if (Input.GetButtonDown("Fire2"))
         {
-            transform.localScale = new Vector3(transform.localScale.x, -transform.localScale.y, 1);
-            Physics2D.gravity *= -1.0f;
+            //Only allow gravity reverse when player is standing
+            //but if player is backwards, allow gravity fix at any point.
+            if ((transform.localScale.y > 0 && jumpEnabled > 0) || transform.localScale.y < 0)
+            {
+                transform.localScale = new Vector3(transform.localScale.x, -transform.localScale.y, 1);
+                Physics2D.gravity *= -1.0f;
+            }
         }
         if (jumpEnabled <= 0)
         {
