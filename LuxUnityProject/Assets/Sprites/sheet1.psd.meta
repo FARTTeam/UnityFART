@@ -1,10 +1,10 @@
 fileFormatVersion: 2
 guid: b5efc2cb60d2ad943a205bdce55b402d
-timeCreated: 1432838453
+timeCreated: 1432907750
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sheet1_0
+    21300000: Tree
     21300002: sheet1_1
     21300004: sheet1_2
     21300006: sheet1_3
@@ -15,7 +15,7 @@ TextureImporter:
     21300016: sheet1_8
     21300018: sheet1_9
     21300020: sheet1_10
-    21300022: sheet1_11
+    21300022: Cloud
     21300024: sheet1_12
     21300026: sheet1_13
     21300028: sheet1_14
@@ -65,46 +65,6 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: sheet1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1898
-        width: 61
-        height: 149
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_1
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 1904
-        width: 78
-        height: 141
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_2
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 1900
-        width: 67
-        height: 145
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_3
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 1899
-        width: 63
-        height: 148
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: player1
       rect:
         serializedVersion: 2
@@ -135,93 +95,23 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_7
+    - name: Cloud
       rect:
         serializedVersion: 2
-        x: 882
-        y: 1846
-        width: 187
-        height: 187
+        x: 1643
+        y: 1755
+        width: 393
+        height: 280
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_8
+    - name: Tree
       rect:
         serializedVersion: 2
-        x: 1082
-        y: 1846
-        width: 187
-        height: 187
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_9
-      rect:
-        serializedVersion: 2
-        x: 1275
-        y: 1846
-        width: 187
-        height: 187
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_10
-      rect:
-        serializedVersion: 2
-        x: 1470
-        y: 1847
-        width: 187
-        height: 187
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_11
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 1846
-        width: 187
-        height: 187
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_12
-      rect:
-        serializedVersion: 2
-        x: 882
-        y: 1649
-        width: 187
-        height: 187
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_13
-      rect:
-        serializedVersion: 2
-        x: 1081
-        y: 1649
-        width: 188
-        height: 187
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_14
-      rect:
-        serializedVersion: 2
-        x: 1278
-        y: 1651
-        width: 186
-        height: 187
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_15
-      rect:
-        serializedVersion: 2
-        x: 1470
-        y: 1652
-        width: 187
-        height: 187
+        x: 1538
+        y: 866
+        width: 493
+        height: 867
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
