@@ -53,7 +53,8 @@ public class CharacterMove : MonoBehaviour {
             if ((transform.localScale.y > 0 && jumpEnabled > 0) || transform.localScale.y < 0)
             {
                 transform.localScale = new Vector3(transform.localScale.x, -transform.localScale.y, 1);
-                Physics2D.gravity *= -1.0f;
+                //Physics2D.gravity *= -1.0f;
+                GetComponent<Rigidbody2D>().gravityScale *= -1.0f;
             }
         }
         if (jumpEnabled <= 0)
