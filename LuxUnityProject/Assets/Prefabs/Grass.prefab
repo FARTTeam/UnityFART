@@ -9,8 +9,11 @@ GameObject:
   m_Component:
   - 4: {fileID: 417130}
   - 212: {fileID: 21291202}
-  - 61: {fileID: 6149984}
-  m_Layer: 9
+  - 68: {fileID: 6852224}
+  - 68: {fileID: 6859796}
+  - 68: {fileID: 6865734}
+  - 68: {fileID: 6831686}
+  m_Layer: 8
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24,24 +27,67 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.06000042, y: -1.38, z: 0}
+  m_LocalPosition: {x: -9.06000042, y: 4.17000008, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!61 &6149984
-BoxCollider2D:
+--- !u!68 &6831686
+EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192438}
   m_Enabled: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b8286430245f9d649933385baa3ef210, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.51999998, y: 1.38999999}
+  m_Points:
+  - {x: -.749209404, y: -.706527472}
+  - {x: .770791054, y: -.706209183}
+--- !u!68 &6852224
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192438}
+  m_Enabled: 1
+  m_Material: {fileID: 6200000, guid: 0b998452c826429449ba2e01e1c10845, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -.8460989, y: -.681241512}
+  - {x: -.846863747, y: .672196865}
+--- !u!68 &6859796
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192438}
+  m_Enabled: 1
+  m_Material: {fileID: 6200000, guid: 0b998452c826429449ba2e01e1c10845, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: .830618858, y: .636229992}
+  - {x: .826335907, y: -.612419128}
+--- !u!68 &6865734
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 192438}
+  m_Enabled: 1
+  m_Material: {fileID: 6200000, guid: b8286430245f9d649933385baa3ef210, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -.743973732, y: .669238567}
+  - {x: .774549484, y: .669557571}
 --- !u!212 &21291202
 SpriteRenderer:
   m_ObjectHideFlags: 1

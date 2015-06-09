@@ -5,9 +5,12 @@ using UnityEngine;
 using System.Collections;
 
 public class CharacterMove : MonoBehaviour {
-    public float Speed;
+    public float MoveForce;
+    public Vector2 MaxSpeed;
     public float JumpPower;
+    public float FootSensorWidth = 0.8f;
     public float FootSensorHeight;
+    public GameObject DebugText;
 
     BoxCollider2D mySensor, footSensor;
     int jumpEnabled = 0;
@@ -15,25 +18,31 @@ public class CharacterMove : MonoBehaviour {
 	void Start () {
         mySensor = transform.GetComponent<BoxCollider2D>();
         Vector2 mySize = mySensor.size;
-        Vector2 footSize = new Vector2(mySize.x, mySize.y * FootSensorHeight);
+        Vector2 footSize = new Vector2(mySize.x * FootSensorWidth, mySize.y * FootSensorHeight);
         footSensor = gameObject.AddComponent<BoxCollider2D>();
         footSensor.size = footSize;
-        footSensor.offset = new Vector2(0, mySize.y * -0.5f);
+        footSensor.offset = new Vector2(0.5f - (mySize.x * FootSensorWidth) * 0.5f, mySize.y * -FootSensorHeight);
         footSensor.isTrigger = true;
 	}
 
     // Update is called once per frame
     void Update()
-    {
+    {        
+        Vector2 velocity = transform.GetComponent<Rigidbody2D>().velocity;
+
         if (Input.GetAxis("Horizontal") < -0.5)
         {
-            transform.Translate(Vector3.left * Time.deltaTime * Speed);
+            //transform.Translate(Vector3.left * Time.deltaTime * Speed);
+            transform.GetComponent<Rigidbody2D>().AddForce(Vector3.left * Time.deltaTime * MoveForce, ForceMode2D.Force);
+            //velocity.x -= Time.deltaTime * MoveForce;
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y,1);
             GetComponent<Animator>().Play("Moving");
         }
         else if (Input.GetAxis("Horizontal") > 0.5)
         {
-            transform.Translate(Vector3.right * Time.deltaTime * Speed);
+            //transform.Translate(Vector3.right * Time.deltaTime * Speed);
+            transform.GetComponent<Rigidbody2D>().AddForce(Vector3.right * Time.deltaTime * MoveForce, ForceMode2D.Force);
+            //velocity.x += Time.deltaTime * MoveForce;
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y,1);
             GetComponent<Animator>().Play("Moving");
         }
@@ -41,11 +50,20 @@ public class CharacterMove : MonoBehaviour {
         {
             GetComponent<Animator>().Play("Idle");
         }
+
+
+        if (velocity.x < -MaxSpeed.x) velocity.x = -MaxSpeed.x;
+        else if (velocity.x > MaxSpeed.x) velocity.x = MaxSpeed.x;
+        if (velocity.y < -MaxSpeed.y) velocity.y = -MaxSpeed.y;
+        else if (velocity.y > MaxSpeed.y) velocity.y = MaxSpeed.y;
+        transform.GetComponent<Rigidbody2D>().velocity = velocity;
+
         if (Input.GetButtonDown("Jump") && jumpEnabled > 0)
         {
-            float impulse = -Mathf.Sign(Physics2D.gravity.y) * JumpPower;
+            float impulse = GetComponent<Rigidbody2D>().gravityScale * JumpPower;
             transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, impulse), ForceMode2D.Impulse);
         }
+        
         if (Input.GetButtonDown("Fire2"))
         {
             //Only allow gravity reverse when player is standing
@@ -57,13 +75,22 @@ public class CharacterMove : MonoBehaviour {
                 GetComponent<Rigidbody2D>().gravityScale *= -1.0f;
             }
         }
+        
         if (jumpEnabled <= 0)
         {
-            if (transform.GetComponent<Rigidbody2D>().velocity.y > 0)
+            if (velocity.y > 0)
                 GetComponent<Animator>().Play("JumpUp");
-            else if (transform.GetComponent<Rigidbody2D>().velocity.y < 0)
+            else if (velocity.y < 0)
                 GetComponent<Animator>().Play("JumpDown");
         }
+
+
+        if (DebugText != null)
+        {
+            DebugText.GetComponent<UnityEngine.UI.Text>().text = jumpEnabled.ToString();
+                //transform.GetComponent<Rigidbody2D>().velocity.ToString();
+        }
+        
     }
 
     void OnTriggerEnter2D(Collider2D other)

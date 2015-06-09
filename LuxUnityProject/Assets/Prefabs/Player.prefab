@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 105668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.47000003, y: 6.86999989, z: 0}
+  m_LocalPosition: {x: -12.6099997, y: 5.38999987, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,14 +39,14 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 105668}
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: .5
   m_AngularDrag: .0500000007
   m_GravityScale: 1
   m_FixedAngle: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_Interpolate: 1
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
 --- !u!61 &6135960
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -88,9 +88,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4719f34c4764376468a84656d02ea7ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
-  JumpPower: 10
+  MoveForce: 4000
+  MaxSpeed: {x: 5, y: 10}
+  JumpPower: 15
+  FootSensorWidth: .800000012
   FootSensorHeight: .5
+  DebugText: {fileID: 0}
 --- !u!212 &21237156
 SpriteRenderer:
   m_ObjectHideFlags: 1

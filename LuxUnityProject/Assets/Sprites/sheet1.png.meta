@@ -1,29 +1,29 @@
 fileFormatVersion: 2
 guid: 4c9b0d7c8bdd0b54980578578be0a14e
-timeCreated: 1432734779
+timeCreated: 1433023584
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sheet1_0
-    21300002: sheet1_1
+    21300000: elevator_red
+    21300002: sign_danger
     21300004: sheet1_2
     21300006: sheet1_3
     21300008: sheet1_4
     21300010: sheet1_5
     21300012: sheet1_6
-    21300014: sheet1_7
-    21300016: sheet1_8
+    21300014: strawberry
+    21300016: banana
     21300018: sheet1_9
     21300020: sheet1_10
     21300022: sheet1_11
     21300024: sheet1_12
-    21300026: sheet1_13
+    21300026: cherry
     21300028: sheet1_14
-    21300030: sheet1_15
+    21300030: sign_exit
     21300032: sheet1_16
     21300034: sheet1_17
     21300036: sheet1_18
-    21300038: sheet1_19
+    21300038: sign_exit2
     21300040: sheet1_20
     21300042: sheet1_21
     21300044: sheet1_22
@@ -50,16 +50,16 @@ TextureImporter:
     21300086: sheet1_43
     21300088: sheet1_44
     21300090: sheet1_45
-    21300092: sheet1_46
-    21300094: sheet1_47
-    21300096: sheet1_48
+    21300092: switch_0
+    21300094: switch_1
+    21300096: lollipop
     21300098: sheet1_49
     21300100: sheet1_50
     21300102: sheet1_51
     21300104: sheet1_52
     21300106: sheet1_53
-    21300108: sheet1_54
-    21300110: sheet1_55
+    21300108: sdcard
+    21300110: usb
     21300112: sheet1_56
     21300114: sheet1_57
     21300116: sheet1_58
@@ -70,8 +70,12 @@ TextureImporter:
     21300126: sheet1_63
     21300128: sheet1_64
     21300130: sheet1_65
-    21300132: sheet1_66
-    21300134: sheet1_67
+    21300132: tablet
+    21300134: lipol
+    21300136: sign_goup
+    21300138: elevator_yellow
+    21300140: elevator_blue
+    21300142: exit_door
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -117,25 +121,15 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: sheet1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 952
-        width: 200
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_1
+    - name: sign_danger
       rect:
         serializedVersion: 2
         x: 226
         y: 850
         width: 173
-        height: 165
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_2
       rect:
@@ -145,7 +139,7 @@ TextureImporter:
         width: 73
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_3
       rect:
@@ -155,7 +149,7 @@ TextureImporter:
         width: 73
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_4
       rect:
@@ -165,7 +159,7 @@ TextureImporter:
         width: 73
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_5
       rect:
@@ -175,7 +169,7 @@ TextureImporter:
         width: 73
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_6
       rect:
@@ -185,9 +179,9 @@ TextureImporter:
         width: 73
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_7
+    - name: strawberry
       rect:
         serializedVersion: 2
         x: 0
@@ -195,9 +189,9 @@ TextureImporter:
         width: 80
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_8
+    - name: banana
       rect:
         serializedVersion: 2
         x: 99
@@ -205,7 +199,7 @@ TextureImporter:
         width: 82
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_9
       rect:
@@ -215,7 +209,7 @@ TextureImporter:
         width: 73
         height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_10
       rect:
@@ -225,7 +219,7 @@ TextureImporter:
         width: 73
         height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_11
       rect:
@@ -235,7 +229,7 @@ TextureImporter:
         width: 73
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_12
       rect:
@@ -245,9 +239,9 @@ TextureImporter:
         width: 75
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_13
+    - name: cherry
       rect:
         serializedVersion: 2
         x: 4
@@ -255,7 +249,7 @@ TextureImporter:
         width: 76
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_14
       rect:
@@ -265,9 +259,9 @@ TextureImporter:
         width: 66
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_15
+    - name: sign_exit
       rect:
         serializedVersion: 2
         x: 226
@@ -275,7 +269,7 @@ TextureImporter:
         width: 137
         height: 41
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_16
       rect:
@@ -285,7 +279,7 @@ TextureImporter:
         width: 104
         height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_17
       rect:
@@ -295,7 +289,7 @@ TextureImporter:
         width: 101
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_18
       rect:
@@ -305,27 +299,17 @@ TextureImporter:
         width: 66
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_19
+    - name: sign_exit2
       rect:
         serializedVersion: 2
-        x: 257
-        y: 755
-        width: 56
-        height: 35
+        x: 241
+        y: 744
+        width: 111
+        height: 60
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_20
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 758
-        width: 22
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_21
       rect:
@@ -335,7 +319,7 @@ TextureImporter:
         width: 283
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_22
       rect:
@@ -345,7 +329,7 @@ TextureImporter:
         width: 93
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_23
       rect:
@@ -355,7 +339,7 @@ TextureImporter:
         width: 44
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_24
       rect:
@@ -365,7 +349,7 @@ TextureImporter:
         width: 66
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_25
       rect:
@@ -375,7 +359,7 @@ TextureImporter:
         width: 102
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_26
       rect:
@@ -385,7 +369,7 @@ TextureImporter:
         width: 98
         height: 91
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_27
       rect:
@@ -395,7 +379,7 @@ TextureImporter:
         width: 66
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_28
       rect:
@@ -405,7 +389,7 @@ TextureImporter:
         width: 44
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_29
       rect:
@@ -415,7 +399,7 @@ TextureImporter:
         width: 30
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_30
       rect:
@@ -425,7 +409,7 @@ TextureImporter:
         width: 44
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_31
       rect:
@@ -435,7 +419,7 @@ TextureImporter:
         width: 44
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_32
       rect:
@@ -445,7 +429,7 @@ TextureImporter:
         width: 66
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_33
       rect:
@@ -455,7 +439,7 @@ TextureImporter:
         width: 90
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_34
       rect:
@@ -465,7 +449,7 @@ TextureImporter:
         width: 58
         height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_35
       rect:
@@ -475,7 +459,7 @@ TextureImporter:
         width: 58
         height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_36
       rect:
@@ -485,7 +469,7 @@ TextureImporter:
         width: 90
         height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_37
       rect:
@@ -495,7 +479,7 @@ TextureImporter:
         width: 175
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_38
       rect:
@@ -505,7 +489,7 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_39
       rect:
@@ -515,7 +499,7 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_40
       rect:
@@ -525,7 +509,7 @@ TextureImporter:
         width: 175
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_41
       rect:
@@ -535,7 +519,7 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_42
       rect:
@@ -545,7 +529,7 @@ TextureImporter:
         width: 122
         height: 85
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_43
       rect:
@@ -555,7 +539,7 @@ TextureImporter:
         width: 123
         height: 85
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_44
       rect:
@@ -565,7 +549,7 @@ TextureImporter:
         width: 128
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_45
       rect:
@@ -575,9 +559,9 @@ TextureImporter:
         width: 124
         height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_46
+    - name: switch_0
       rect:
         serializedVersion: 2
         x: 613
@@ -585,9 +569,9 @@ TextureImporter:
         width: 72
         height: 98
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_47
+    - name: switch_1
       rect:
         serializedVersion: 2
         x: 688
@@ -595,9 +579,9 @@ TextureImporter:
         width: 75
         height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_48
+    - name: lollipop
       rect:
         serializedVersion: 2
         x: 788
@@ -605,7 +589,7 @@ TextureImporter:
         width: 54
         height: 76
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_49
       rect:
@@ -615,7 +599,7 @@ TextureImporter:
         width: 102
         height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_50
       rect:
@@ -625,7 +609,7 @@ TextureImporter:
         width: 102
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_51
       rect:
@@ -635,7 +619,7 @@ TextureImporter:
         width: 101
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_52
       rect:
@@ -645,7 +629,7 @@ TextureImporter:
         width: 101
         height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_53
       rect:
@@ -655,9 +639,9 @@ TextureImporter:
         width: 100
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_54
+    - name: sdcard
       rect:
         serializedVersion: 2
         x: 884
@@ -665,9 +649,9 @@ TextureImporter:
         width: 59
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_55
+    - name: usb
       rect:
         serializedVersion: 2
         x: 972
@@ -675,7 +659,7 @@ TextureImporter:
         width: 36
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_56
       rect:
@@ -685,7 +669,7 @@ TextureImporter:
         width: 161
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_57
       rect:
@@ -695,7 +679,7 @@ TextureImporter:
         width: 161
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_58
       rect:
@@ -705,7 +689,7 @@ TextureImporter:
         width: 64
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_59
       rect:
@@ -715,7 +699,7 @@ TextureImporter:
         width: 68
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_60
       rect:
@@ -725,7 +709,7 @@ TextureImporter:
         width: 66
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_61
       rect:
@@ -735,7 +719,7 @@ TextureImporter:
         width: 65
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_62
       rect:
@@ -745,7 +729,7 @@ TextureImporter:
         width: 77
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_63
       rect:
@@ -755,7 +739,7 @@ TextureImporter:
         width: 79
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_64
       rect:
@@ -765,7 +749,7 @@ TextureImporter:
         width: 78
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: sheet1_65
       rect:
@@ -775,9 +759,9 @@ TextureImporter:
         width: 78
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_66
+    - name: tablet
       rect:
         serializedVersion: 2
         x: 7
@@ -785,9 +769,9 @@ TextureImporter:
         width: 117
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: sheet1_67
+    - name: lipol
       rect:
         serializedVersion: 2
         x: 132
@@ -795,7 +779,57 @@ TextureImporter:
         width: 50
         height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sign_goup
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 940
+        width: 84
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: elevator_yellow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 976
+        width: 200
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: elevator_red
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 200
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: elevator_blue
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 953
+        width: 200
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: exit_door
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 758
+        width: 218
+        height: 262
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
