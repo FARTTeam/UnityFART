@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 916194d047d5a944ca063ce0aa296cdf
-timeCreated: 1433885760
+timeCreated: 1433922823
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -291,7 +291,7 @@ TextureImporter:
         width: 101
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_1
       rect:
@@ -301,7 +301,7 @@ TextureImporter:
         width: 98
         height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_2
       rect:
@@ -311,7 +311,7 @@ TextureImporter:
         width: 102
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_3
       rect:
@@ -321,7 +321,7 @@ TextureImporter:
         width: 101
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_4
       rect:
@@ -331,7 +331,7 @@ TextureImporter:
         width: 114
         height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_5
       rect:
@@ -341,7 +341,7 @@ TextureImporter:
         width: 116
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_6
       rect:
@@ -351,7 +351,7 @@ TextureImporter:
         width: 117
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_7
       rect:
@@ -361,7 +361,7 @@ TextureImporter:
         width: 119
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_8
       rect:
@@ -371,7 +371,7 @@ TextureImporter:
         width: 103
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_9
       rect:
@@ -381,17 +381,17 @@ TextureImporter:
         width: 103
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_10
       rect:
         serializedVersion: 2
         x: 1791
         y: 3967
-        width: 256
+        width: 130
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_11
       rect:
@@ -401,7 +401,7 @@ TextureImporter:
         width: 834
         height: 834
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_12
       rect:
@@ -411,7 +411,7 @@ TextureImporter:
         width: 796
         height: 794
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_13
       rect:
@@ -421,7 +421,7 @@ TextureImporter:
         width: 167
         height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_14
       rect:
@@ -431,7 +431,7 @@ TextureImporter:
         width: 130
         height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_15
       rect:
@@ -441,7 +441,7 @@ TextureImporter:
         width: 122
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_16
       rect:
@@ -451,7 +451,7 @@ TextureImporter:
         width: 112
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_17
       rect:
@@ -461,7 +461,7 @@ TextureImporter:
         width: 254
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_18
       rect:
@@ -471,7 +471,7 @@ TextureImporter:
         width: 126
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_19
       rect:
@@ -481,7 +481,7 @@ TextureImporter:
         width: 246
         height: 246
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_20
       rect:
@@ -491,7 +491,7 @@ TextureImporter:
         width: 108
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_21
       rect:
@@ -501,7 +501,7 @@ TextureImporter:
         width: 66
         height: 127
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_22
       rect:
@@ -511,7 +511,7 @@ TextureImporter:
         width: 54
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_23
       rect:
@@ -521,7 +521,7 @@ TextureImporter:
         width: 54
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_24
       rect:
@@ -531,7 +531,7 @@ TextureImporter:
         width: 68
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_25
       rect:
@@ -541,7 +541,7 @@ TextureImporter:
         width: 122
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_26
       rect:
@@ -551,7 +551,7 @@ TextureImporter:
         width: 122
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_27
       rect:
@@ -561,7 +561,7 @@ TextureImporter:
         width: 122
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_28
       rect:
@@ -571,7 +571,7 @@ TextureImporter:
         width: 120
         height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_29
       rect:
@@ -581,7 +581,7 @@ TextureImporter:
         width: 123
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_30
       rect:
@@ -591,7 +591,7 @@ TextureImporter:
         width: 125
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_31
       rect:
@@ -601,7 +601,7 @@ TextureImporter:
         width: 123
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_32
       rect:
@@ -611,7 +611,7 @@ TextureImporter:
         width: 114
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_33
       rect:
@@ -621,7 +621,7 @@ TextureImporter:
         width: 36
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_34
       rect:
@@ -631,27 +631,27 @@ TextureImporter:
         width: 36
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_35
       rect:
         serializedVersion: 2
-        x: 159
-        y: 3627
+        x: 158
+        y: 3599
         width: 76
-        height: 72
+        height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_36
       rect:
         serializedVersion: 2
-        x: 287
-        y: 3627
-        width: 76
-        height: 72
+        x: 286
+        y: 3599
+        width: 79
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_37
       rect:
@@ -661,7 +661,7 @@ TextureImporter:
         width: 50
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_38
       rect:
@@ -671,7 +671,7 @@ TextureImporter:
         width: 58
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_39
       rect:
@@ -681,7 +681,7 @@ TextureImporter:
         width: 102
         height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_40
       rect:
@@ -691,7 +691,7 @@ TextureImporter:
         width: 254
         height: 258
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_41
       rect:
@@ -701,27 +701,7 @@ TextureImporter:
         width: 122
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_42
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 3601
-        width: 22
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_43
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 3601
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_44
       rect:
@@ -731,7 +711,7 @@ TextureImporter:
         width: 246
         height: 246
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_45
       rect:
@@ -741,7 +721,7 @@ TextureImporter:
         width: 122
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_46
       rect:
@@ -751,7 +731,7 @@ TextureImporter:
         width: 122
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_47
       rect:
@@ -761,7 +741,7 @@ TextureImporter:
         width: 66
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_48
       rect:
@@ -771,7 +751,7 @@ TextureImporter:
         width: 126
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_49
       rect:
@@ -781,7 +761,7 @@ TextureImporter:
         width: 126
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_50
       rect:
@@ -791,27 +771,17 @@ TextureImporter:
         width: 114
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_51
       rect:
         serializedVersion: 2
-        x: 11
-        y: 3409
-        width: 34
-        height: 36
+        x: 5
+        y: 3342
+        width: 100
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_52
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 3409
-        width: 32
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_53
       rect:
@@ -821,7 +791,7 @@ TextureImporter:
         width: 70
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_54
       rect:
@@ -831,7 +801,7 @@ TextureImporter:
         width: 125
         height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_55
       rect:
@@ -841,7 +811,7 @@ TextureImporter:
         width: 126
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_56
       rect:
@@ -851,7 +821,7 @@ TextureImporter:
         width: 126
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_57
       rect:
@@ -861,7 +831,7 @@ TextureImporter:
         width: 164
         height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_58
       rect:
@@ -871,7 +841,7 @@ TextureImporter:
         width: 122
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_59
       rect:
@@ -881,37 +851,17 @@ TextureImporter:
         width: 709
         height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_60
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 3341
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_61
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 3339
-        width: 34
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_62
       rect:
         serializedVersion: 2
-        x: 861
-        y: 3327
-        width: 102
-        height: 82
+        x: 830
+        y: 3284
+        width: 167
+        height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_63
       rect:
@@ -921,7 +871,7 @@ TextureImporter:
         width: 71
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_64
       rect:
@@ -931,7 +881,7 @@ TextureImporter:
         width: 68
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_65
       rect:
@@ -941,47 +891,17 @@ TextureImporter:
         width: 92
         height: 85
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_66
       rect:
         serializedVersion: 2
         x: 760
         y: 3159
-        width: 45
+        width: 96
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_67
-      rect:
-        serializedVersion: 2
-        x: 811
-        y: 3159
-        width: 46
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_68
-      rect:
-        serializedVersion: 2
-        x: 894
-        y: 3159
-        width: 45
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_69
-      rect:
-        serializedVersion: 2
-        x: 944
-        y: 3159
-        width: 45
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_70
       rect:
@@ -991,7 +911,7 @@ TextureImporter:
         width: 113
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_71
       rect:
@@ -1001,7 +921,7 @@ TextureImporter:
         width: 115
         height: 129
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_72
       rect:
@@ -1011,7 +931,7 @@ TextureImporter:
         width: 113
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_73
       rect:
@@ -1021,7 +941,7 @@ TextureImporter:
         width: 110
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_74
       rect:
@@ -1031,7 +951,7 @@ TextureImporter:
         width: 122
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_75
       rect:
@@ -1041,7 +961,7 @@ TextureImporter:
         width: 119
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_76
       rect:
@@ -1051,7 +971,7 @@ TextureImporter:
         width: 104
         height: 108
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_77
       rect:
@@ -1061,7 +981,7 @@ TextureImporter:
         width: 104
         height: 107
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_78
       rect:
@@ -1071,7 +991,7 @@ TextureImporter:
         width: 114
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_79
       rect:
@@ -1081,7 +1001,7 @@ TextureImporter:
         width: 121
         height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_80
       rect:
@@ -1091,7 +1011,7 @@ TextureImporter:
         width: 118
         height: 119
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_81
       rect:
@@ -1101,7 +1021,7 @@ TextureImporter:
         width: 118
         height: 118
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_82
       rect:
@@ -1111,7 +1031,7 @@ TextureImporter:
         width: 102
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_83
       rect:
@@ -1121,7 +1041,7 @@ TextureImporter:
         width: 104
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_84
       rect:
@@ -1131,7 +1051,7 @@ TextureImporter:
         width: 122
         height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_85
       rect:
@@ -1141,7 +1061,7 @@ TextureImporter:
         width: 114
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_86
       rect:
@@ -1151,17 +1071,17 @@ TextureImporter:
         width: 116
         height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_87
       rect:
         serializedVersion: 2
         x: 2055
-        y: 3104
+        y: 3042
         width: 126
-        height: 51
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_88
       rect:
@@ -1171,7 +1091,7 @@ TextureImporter:
         width: 978
         height: 376
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_89
       rect:
@@ -1181,7 +1101,7 @@ TextureImporter:
         width: 638
         height: 424
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_90
       rect:
@@ -1191,27 +1111,7 @@ TextureImporter:
         width: 114
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_91
-      rect:
-        serializedVersion: 2
-        x: 785
-        y: 3021
-        width: 31
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_92
-      rect:
-        serializedVersion: 2
-        x: 2063
-        y: 3040
-        width: 113
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_93
       rect:
@@ -1221,7 +1121,7 @@ TextureImporter:
         width: 782
         height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_94
       rect:
@@ -1231,7 +1131,7 @@ TextureImporter:
         width: 107
         height: 108
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_95
       rect:
@@ -1241,7 +1141,7 @@ TextureImporter:
         width: 92
         height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_96
       rect:
@@ -1251,17 +1151,17 @@ TextureImporter:
         width: 116
         height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_97
       rect:
         serializedVersion: 2
-        x: 2055
-        y: 2971
+        x: 2057
+        y: 2907
         width: 126
-        height: 48
+        height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_98
       rect:
@@ -1271,7 +1171,7 @@ TextureImporter:
         width: 109
         height: 107
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_99
       rect:
@@ -1281,17 +1181,7 @@ TextureImporter:
         width: 782
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_100
-      rect:
-        serializedVersion: 2
-        x: 2075
-        y: 2907
-        width: 87
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_101
       rect:
@@ -1301,7 +1191,7 @@ TextureImporter:
         width: 782
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_102
       rect:
@@ -1311,7 +1201,7 @@ TextureImporter:
         width: 114
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_103
       rect:
@@ -1321,7 +1211,7 @@ TextureImporter:
         width: 97
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_104
       rect:
@@ -1331,7 +1221,7 @@ TextureImporter:
         width: 126
         height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_105
       rect:
@@ -1341,7 +1231,7 @@ TextureImporter:
         width: 109
         height: 107
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_106
       rect:
@@ -1351,7 +1241,7 @@ TextureImporter:
         width: 782
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_107
       rect:
@@ -1361,7 +1251,7 @@ TextureImporter:
         width: 516
         height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_108
       rect:
@@ -1371,7 +1261,7 @@ TextureImporter:
         width: 517
         height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_109
       rect:
@@ -1381,7 +1271,7 @@ TextureImporter:
         width: 114
         height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_110
       rect:
@@ -1391,7 +1281,7 @@ TextureImporter:
         width: 114
         height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_111
       rect:
@@ -1401,7 +1291,7 @@ TextureImporter:
         width: 519
         height: 204
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_112
       rect:
@@ -1411,7 +1301,7 @@ TextureImporter:
         width: 80
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_113
       rect:
@@ -1421,7 +1311,7 @@ TextureImporter:
         width: 134
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_114
       rect:
@@ -1431,7 +1321,7 @@ TextureImporter:
         width: 80
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_115
       rect:
@@ -1441,7 +1331,7 @@ TextureImporter:
         width: 56
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_116
       rect:
@@ -1451,7 +1341,7 @@ TextureImporter:
         width: 56
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_117
       rect:
@@ -1461,7 +1351,7 @@ TextureImporter:
         width: 28
         height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_118
       rect:
@@ -1471,7 +1361,7 @@ TextureImporter:
         width: 57
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_119
       rect:
@@ -1481,7 +1371,7 @@ TextureImporter:
         width: 30
         height: 55
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_120
       rect:
@@ -1491,7 +1381,7 @@ TextureImporter:
         width: 56
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_121
       rect:
@@ -1501,7 +1391,7 @@ TextureImporter:
         width: 48
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_122
       rect:
@@ -1511,7 +1401,7 @@ TextureImporter:
         width: 56
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_123
       rect:
@@ -1521,7 +1411,7 @@ TextureImporter:
         width: 40
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_124
       rect:
@@ -1531,7 +1421,7 @@ TextureImporter:
         width: 150
         height: 170
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_125
       rect:
@@ -1541,7 +1431,7 @@ TextureImporter:
         width: 302
         height: 213
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_126
       rect:
@@ -1551,7 +1441,7 @@ TextureImporter:
         width: 140
         height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_127
       rect:
@@ -1561,7 +1451,7 @@ TextureImporter:
         width: 480
         height: 479
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_128
       rect:
@@ -1571,7 +1461,7 @@ TextureImporter:
         width: 378
         height: 440
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_129
       rect:
@@ -1581,7 +1471,7 @@ TextureImporter:
         width: 314
         height: 307
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_130
       rect:
@@ -1591,7 +1481,7 @@ TextureImporter:
         width: 314
         height: 304
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_131
       rect:
@@ -1601,7 +1491,7 @@ TextureImporter:
         width: 104
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_132
       rect:
@@ -1611,7 +1501,7 @@ TextureImporter:
         width: 80
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_133
       rect:
@@ -1621,7 +1511,7 @@ TextureImporter:
         width: 517
         height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_134
       rect:
@@ -1631,7 +1521,7 @@ TextureImporter:
         width: 516
         height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_135
       rect:
@@ -1641,7 +1531,7 @@ TextureImporter:
         width: 78
         height: 74
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_136
       rect:
@@ -1651,7 +1541,7 @@ TextureImporter:
         width: 77
         height: 73
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_137
       rect:
@@ -1661,7 +1551,7 @@ TextureImporter:
         width: 118
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_138
       rect:
@@ -1671,7 +1561,7 @@ TextureImporter:
         width: 122
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_139
       rect:
@@ -1681,7 +1571,7 @@ TextureImporter:
         width: 240
         height: 241
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_140
       rect:
@@ -1691,7 +1581,7 @@ TextureImporter:
         width: 194
         height: 226
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_141
       rect:
@@ -1701,7 +1591,7 @@ TextureImporter:
         width: 194
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_142
       rect:
@@ -1711,7 +1601,7 @@ TextureImporter:
         width: 226
         height: 214
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_143
       rect:
@@ -1721,7 +1611,7 @@ TextureImporter:
         width: 224
         height: 235
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_144
       rect:
@@ -1731,7 +1621,7 @@ TextureImporter:
         width: 211
         height: 214
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_145
       rect:
@@ -1741,7 +1631,7 @@ TextureImporter:
         width: 104
         height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_146
       rect:
@@ -1751,7 +1641,7 @@ TextureImporter:
         width: 235
         height: 199
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_147
       rect:
@@ -1761,7 +1651,7 @@ TextureImporter:
         width: 228
         height: 228
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_148
       rect:
@@ -1771,7 +1661,7 @@ TextureImporter:
         width: 437
         height: 466
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_149
       rect:
@@ -1781,7 +1671,7 @@ TextureImporter:
         width: 418
         height: 424
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_150
       rect:
@@ -1791,7 +1681,7 @@ TextureImporter:
         width: 782
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_151
       rect:
@@ -1801,7 +1691,7 @@ TextureImporter:
         width: 50
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_152
       rect:
@@ -1811,7 +1701,7 @@ TextureImporter:
         width: 59
         height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_153
       rect:
@@ -1821,7 +1711,7 @@ TextureImporter:
         width: 510
         height: 258
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_154
       rect:
@@ -1831,7 +1721,7 @@ TextureImporter:
         width: 254
         height: 258
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_155
       rect:
@@ -1841,7 +1731,7 @@ TextureImporter:
         width: 642
         height: 342
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_156
       rect:
@@ -1851,7 +1741,7 @@ TextureImporter:
         width: 142
         height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_157
       rect:
@@ -1861,7 +1751,7 @@ TextureImporter:
         width: 520
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_158
       rect:
@@ -1871,7 +1761,7 @@ TextureImporter:
         width: 114
         height: 121
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_159
       rect:
@@ -1881,7 +1771,7 @@ TextureImporter:
         width: 122
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_160
       rect:
@@ -1891,7 +1781,7 @@ TextureImporter:
         width: 142
         height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_161
       rect:
@@ -1901,37 +1791,7 @@ TextureImporter:
         width: 484
         height: 486
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_162
-      rect:
-        serializedVersion: 2
-        x: 2069
-        y: 1539
-        width: 30
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_163
-      rect:
-        serializedVersion: 2
-        x: 2335
-        y: 1539
-        width: 44
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_164
-      rect:
-        serializedVersion: 2
-        x: 2617
-        y: 1539
-        width: 28
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_165
       rect:
@@ -1941,7 +1801,7 @@ TextureImporter:
         width: 228
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_166
       rect:
@@ -1951,7 +1811,7 @@ TextureImporter:
         width: 228
         height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_167
       rect:
@@ -1961,7 +1821,7 @@ TextureImporter:
         width: 388
         height: 438
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_168
       rect:
@@ -1971,7 +1831,7 @@ TextureImporter:
         width: 403
         height: 407
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_169
       rect:
@@ -1981,7 +1841,7 @@ TextureImporter:
         width: 402
         height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_170
       rect:
@@ -1991,7 +1851,7 @@ TextureImporter:
         width: 198
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_171
       rect:
@@ -2001,7 +1861,7 @@ TextureImporter:
         width: 146
         height: 82
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_172
       rect:
@@ -2011,7 +1871,7 @@ TextureImporter:
         width: 492
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_173
       rect:
@@ -2021,7 +1881,7 @@ TextureImporter:
         width: 16
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_174
       rect:
@@ -2031,7 +1891,7 @@ TextureImporter:
         width: 18
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_175
       rect:
@@ -2041,7 +1901,7 @@ TextureImporter:
         width: 26
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_176
       rect:
@@ -2051,7 +1911,7 @@ TextureImporter:
         width: 18
         height: 62
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_177
       rect:
@@ -2061,17 +1921,17 @@ TextureImporter:
         width: 162
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_178
       rect:
         serializedVersion: 2
-        x: 2911
-        y: 1285
-        width: 98
-        height: 74
+        x: 2879
+        y: 1239
+        width: 164
+        height: 164
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_179
       rect:
@@ -2081,87 +1941,27 @@ TextureImporter:
         width: 777
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_180
       rect:
         serializedVersion: 2
-        x: 1659
-        y: 1055
-        width: 204
-        height: 118
+        x: 1654
+        y: 1043
+        width: 965
+        height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_181
-      rect:
-        serializedVersion: 2
-        x: 1863
-        y: 1056
-        width: 129
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_182
-      rect:
-        serializedVersion: 2
-        x: 2041
-        y: 1056
-        width: 127
-        height: 115
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_183
-      rect:
-        serializedVersion: 2
-        x: 2577
-        y: 1055
-        width: 39
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_184
       rect:
         serializedVersion: 2
         x: 2671
-        y: 1055
-        width: 204
-        height: 121
+        y: 1046
+        width: 959
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_185
-      rect:
-        serializedVersion: 2
-        x: 2875
-        y: 1057
-        width: 126
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_186
-      rect:
-        serializedVersion: 2
-        x: 3053
-        y: 1057
-        width: 126
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_187
-      rect:
-        serializedVersion: 2
-        x: 3589
-        y: 1057
-        width: 38
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_188
       rect:
@@ -2171,7 +1971,7 @@ TextureImporter:
         width: 372
         height: 138
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_189
       rect:
@@ -2181,7 +1981,7 @@ TextureImporter:
         width: 502
         height: 433
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_190
       rect:
@@ -2191,7 +1991,7 @@ TextureImporter:
         width: 517
         height: 358
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_191
       rect:
@@ -2201,7 +2001,7 @@ TextureImporter:
         width: 203
         height: 202
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_192
       rect:
@@ -2211,47 +2011,7 @@ TextureImporter:
         width: 200
         height: 202
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_193
-      rect:
-        serializedVersion: 2
-        x: 3025
-        y: 923
-        width: 78
-        height: 68
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_194
-      rect:
-        serializedVersion: 2
-        x: 3153
-        y: 923
-        width: 54
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_195
-      rect:
-        serializedVersion: 2
-        x: 3507
-        y: 923
-        width: 54
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_196
-      rect:
-        serializedVersion: 2
-        x: 3651
-        y: 975
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_197
       rect:
@@ -2261,7 +2021,7 @@ TextureImporter:
         width: 642
         height: 348
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_198
       rect:
@@ -2271,87 +2031,7 @@ TextureImporter:
         width: 162
         height: 168
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_199
-      rect:
-        serializedVersion: 2
-        x: 3109
-        y: 920
-        width: 43
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_200
-      rect:
-        serializedVersion: 2
-        x: 3209
-        y: 923
-        width: 36
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_201
-      rect:
-        serializedVersion: 2
-        x: 3247
-        y: 920
-        width: 44
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_202
-      rect:
-        serializedVersion: 2
-        x: 3293
-        y: 923
-        width: 52
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_203
-      rect:
-        serializedVersion: 2
-        x: 3467
-        y: 923
-        width: 37
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_204
-      rect:
-        serializedVersion: 2
-        x: 3563
-        y: 923
-        width: 44
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_205
-      rect:
-        serializedVersion: 2
-        x: 3609
-        y: 923
-        width: 36
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: nats1_206
-      rect:
-        serializedVersion: 2
-        x: 3647
-        y: 923
-        width: 24
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_207
       rect:
@@ -2361,7 +2041,7 @@ TextureImporter:
         width: 212
         height: 226
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_208
       rect:
@@ -2371,7 +2051,7 @@ TextureImporter:
         width: 203
         height: 202
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_209
       rect:
@@ -2381,7 +2061,7 @@ TextureImporter:
         width: 200
         height: 202
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_210
       rect:
@@ -2391,7 +2071,7 @@ TextureImporter:
         width: 162
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_211
       rect:
@@ -2401,7 +2081,7 @@ TextureImporter:
         width: 258
         height: 602
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_212
       rect:
@@ -2411,7 +2091,7 @@ TextureImporter:
         width: 142
         height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_213
       rect:
@@ -2421,7 +2101,7 @@ TextureImporter:
         width: 186
         height: 412
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_214
       rect:
@@ -2431,7 +2111,7 @@ TextureImporter:
         width: 142
         height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_215
       rect:
@@ -2441,7 +2121,7 @@ TextureImporter:
         width: 156
         height: 230
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_216
       rect:
@@ -2451,7 +2131,7 @@ TextureImporter:
         width: 502
         height: 430
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_217
       rect:
@@ -2461,7 +2141,7 @@ TextureImporter:
         width: 385
         height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_218
       rect:
@@ -2471,7 +2151,7 @@ TextureImporter:
         width: 382
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_219
       rect:
@@ -2481,7 +2161,7 @@ TextureImporter:
         width: 642
         height: 438
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_220
       rect:
@@ -2491,7 +2171,7 @@ TextureImporter:
         width: 163
         height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_221
       rect:
@@ -2501,7 +2181,7 @@ TextureImporter:
         width: 163
         height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_222
       rect:
@@ -2511,7 +2191,7 @@ TextureImporter:
         width: 163
         height: 163
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_223
       rect:
@@ -2521,7 +2201,7 @@ TextureImporter:
         width: 78
         height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_224
       rect:
@@ -2531,7 +2211,7 @@ TextureImporter:
         width: 78
         height: 166
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_225
       rect:
@@ -2541,7 +2221,7 @@ TextureImporter:
         width: 162
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_226
       rect:
@@ -2551,7 +2231,7 @@ TextureImporter:
         width: 656
         height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_227
       rect:
@@ -2561,7 +2241,7 @@ TextureImporter:
         width: 784
         height: 184
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_228
       rect:
@@ -2571,7 +2251,7 @@ TextureImporter:
         width: 162
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_229
       rect:
@@ -2581,7 +2261,7 @@ TextureImporter:
         width: 162
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_230
       rect:
@@ -2591,7 +2271,7 @@ TextureImporter:
         width: 162
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_231
       rect:
@@ -2601,7 +2281,7 @@ TextureImporter:
         width: 784
         height: 179
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: nats1_232
       rect:
@@ -2611,7 +2291,7 @@ TextureImporter:
         width: 651
         height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: spike
       rect:
@@ -2620,6 +2300,66 @@ TextureImporter:
         y: 3195
         width: 128
         height: 128
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nats1_42
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 3967
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nats1_43
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3840
+        width: 127
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nats1_52
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 3194
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nats1_60
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 3062
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nats1_61
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3063
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nats1_67
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 3159
+        width: 96
+        height: 114
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
