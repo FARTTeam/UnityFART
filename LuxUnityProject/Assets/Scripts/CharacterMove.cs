@@ -2,7 +2,7 @@
 /// By Saeed Afshari (2015)
 /// 
 using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
 public class CharacterMove : MonoBehaviour {
     public float MoveForce;
@@ -12,10 +12,13 @@ public class CharacterMove : MonoBehaviour {
     public float FootSensorHeight;
     public GameObject DebugText;
 
+    HashSet<object> platforms = new HashSet<object>();
     BoxCollider2D mySensor, footSensor;
-    int jumpEnabled = 0;
+    bool jumpEnabled { get { return platforms.Count > 0; } }
+
 	// Use this for initialization
-	void Start () {
+	void Start()
+    {
         mySensor = transform.GetComponent<BoxCollider2D>();
         Vector2 mySize = mySensor.size;
         Vector2 footSize = new Vector2(mySize.x * FootSensorWidth, mySize.y * FootSensorHeight);
@@ -35,7 +38,7 @@ public class CharacterMove : MonoBehaviour {
             //transform.Translate(Vector3.left * Time.deltaTime * Speed);
             transform.GetComponent<Rigidbody2D>().AddForce(Vector3.left * Time.deltaTime * MoveForce, ForceMode2D.Force);
             //velocity.x -= Time.deltaTime * MoveForce;
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y,1);
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
             GetComponent<Animator>().Play("Moving");
         }
         else if (Input.GetAxis("Horizontal") > 0.5)
@@ -43,7 +46,7 @@ public class CharacterMove : MonoBehaviour {
             //transform.Translate(Vector3.right * Time.deltaTime * Speed);
             transform.GetComponent<Rigidbody2D>().AddForce(Vector3.right * Time.deltaTime * MoveForce, ForceMode2D.Force);
             //velocity.x += Time.deltaTime * MoveForce;
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y,1);
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
             GetComponent<Animator>().Play("Moving");
         }
         else
@@ -56,9 +59,10 @@ public class CharacterMove : MonoBehaviour {
         else if (velocity.x > MaxSpeed.x) velocity.x = MaxSpeed.x;
         if (velocity.y < -MaxSpeed.y) velocity.y = -MaxSpeed.y;
         else if (velocity.y > MaxSpeed.y) velocity.y = MaxSpeed.y;
+
         transform.GetComponent<Rigidbody2D>().velocity = velocity;
 
-        if (Input.GetButtonDown("Jump") && jumpEnabled > 0)
+        if (Input.GetButtonDown("Jump") && jumpEnabled)
         {
             float impulse = GetComponent<Rigidbody2D>().gravityScale * JumpPower;
             transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, impulse), ForceMode2D.Impulse);
@@ -68,7 +72,7 @@ public class CharacterMove : MonoBehaviour {
         {
             //Only allow gravity reverse when player is standing
             //but if player is backwards, allow gravity fix at any point.
-            if ((transform.localScale.y > 0 && jumpEnabled > 0) || transform.localScale.y < 0)
+            if ((transform.localScale.y > 0 && jumpEnabled) || transform.localScale.y < 0)
             {
                 transform.localScale = new Vector3(transform.localScale.x, -transform.localScale.y, 1);
                 //Physics2D.gravity *= -1.0f;
@@ -76,30 +80,35 @@ public class CharacterMove : MonoBehaviour {
             }
         }
         
-        if (jumpEnabled <= 0)
+        if (jumpEnabled)
         {
-            if (velocity.y > 0)
-                GetComponent<Animator>().Play("JumpUp");
-            else if (velocity.y < 0)
-                GetComponent<Animator>().Play("JumpDown");
+            if (velocity.y > 0) GetComponent<Animator>().Play("JumpUp");
+            else if (velocity.y < 0) GetComponent<Animator>().Play("JumpDown");
         }
-
-
+        
         if (DebugText != null)
         {
             DebugText.GetComponent<UnityEngine.UI.Text>().text = jumpEnabled.ToString();
                 //transform.GetComponent<Rigidbody2D>().velocity.ToString();
         }
-        
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (footSensor.IsTouching(other) && other.gameObject.layer == 8) jumpEnabled++;
+        if (footSensor.IsTouching(other) && other.gameObject.layer == 8)
+        {
+            platforms.Add(other);
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (!footSensor.IsTouching(other) && other.gameObject.layer == 8) jumpEnabled--;
+        List<object> platformsToRemove = new List<object>(platforms.Count);
+        foreach (var platform in platforms)
+        {
+            if (!footSensor.IsTouching((Collider2D)platform)) platformsToRemove.Add(platform);
+        }
+        foreach (var platform in platformsToRemove)
+            platforms.Remove(platform);
     }
 }
