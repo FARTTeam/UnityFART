@@ -29,6 +29,7 @@ public class TileColliderCreator : MonoBehaviour {
         rightE.sharedMaterial = SidePhysics;
         if (BottomHasSideMaterial) bottomE.sharedMaterial = SidePhysics;
         else bottomE.sharedMaterial = TopPhysics;
+        topE.sharedMaterial = TopPhysics;
 
         leftE.points = new Vector2[] { new Vector2(left - size.x * sideOffset.x, bottom), new Vector2(left - size.x * sideOffset.x, top) };
         rightE.points = new Vector2[] { new Vector2(right + size.x * sideOffset.x, bottom), new Vector2(right + size.x * sideOffset.x, top) };
