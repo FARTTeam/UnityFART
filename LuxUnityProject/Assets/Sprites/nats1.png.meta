@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 916194d047d5a944ca063ce0aa296cdf
-timeCreated: 1433922823
+timeCreated: 1434028977
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -776,10 +776,10 @@ TextureImporter:
     - name: nats1_51
       rect:
         serializedVersion: 2
-        x: 5
-        y: 3342
-        width: 100
-        height: 100
+        x: 2
+        y: 3329
+        width: 125
+        height: 125
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2360,6 +2360,16 @@ TextureImporter:
         y: 3159
         width: 96
         height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: nats1_68
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3841
+        width: 128
+        height: 127
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
